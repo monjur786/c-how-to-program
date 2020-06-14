@@ -1,15 +1,21 @@
-// Exercises 2.21
-// (Shapes with Asterisks) Write a program that prints the following shapes
-// with asterisks.
+/*
+ * Filename:    ex02_21.c
+ * Author:      Monjur Alam
+ * Email:       m.monjur94@gmail.com
+ * Date:        06/15/2020.
+ */
+#include <iostream> // allows program to perform input and output
+using namespace std; // program uses names from the std namespace
 
-#include <stdio.h>
-
-int main() {
-
-  printf("*********\n*       *\n*       *\n*       *\n*       *\n*       *\n*       *\n*       *\n*********\n");
-  printf("   ***   \n *     *\n*       *\n*       *\n*       *\n*       *\n*       *\n *     *\n   ***   \n");
-  printf("  *  \n *** \n*****\n  *  \n  *  \n  *  \n  *  \n  *  \n  *  \n");
-  printf("    *    \n   * *   \n  *   *  \n *     * \n*       *\n *     * \n  *   *  \n   * *   \n    *    \n");
-
-  return 0;
-}
+int main()
+{
+   cout << "*********      ***         *         *\n"
+        << "*       *    *     *      ***       * *\n"
+        << "*       *   *       *    *****     *   *\n"
+        << "*       *   *       *      *      *     *\n"
+        << "*       *   *       *      *     *       *\n"
+        << "*       *   *       *      *      *     *\n"
+        << "*       *   *       *      *       *   *\n"
+        << "*       *    *     *       *        * *\n"
+        << "*********      ***         *         *" << endl;
+} // end main
